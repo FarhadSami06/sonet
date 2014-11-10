@@ -1,0 +1,173 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+			margin: 0;
+			width: 100%;
+			height: 100%;
+
+		}
+		.layout-container {
+			width: 100%;
+			height: 100%;
+		}
+
+		.logo-style {
+			font-style:italic;
+			font-variant: small-caps;
+			
+		}
+		#logo {
+			font-size: 100px;
+			position: absolute;
+			top: 4%;
+			left: 15%;
+			padding: 1%;
+			border-radius: 5px;
+			color: #ffffff;
+			font-family:Krungthep;
+			letter-spacing: 15px;
+			opacity: 0.8;
+		}
+		#slogan {
+			color:#ffffff;
+			font-family:Krungthep;
+			opacity: 0.8;
+			position: absolute;
+			top: 35%;
+			left: 30%;
+		}
+		
+		.main-container {		
+			width: 100%;
+			height: 100%;
+			background-image: url("/img/beach2.png");
+			background-repeat:no-repeat;
+			background-size: 100% 100%;
+			position:relative;
+			
+		}
+		.site-description {
+			width: 40%;
+			position: absolute;
+			top: 30%;
+			left: 10%;
+			text-align: justify;
+			display: inline-block;
+			padding: 2%;
+			
+			
+		}
+		.content {
+			background-color: #351212;
+			width: 100%;
+			height: 800px;
+			color: #000000;
+			
+		}
+		.content h1 {
+			margin: 0;
+			color: #ffffff;
+			font-family:Krungthep;
+			opacity: 0.8;
+			position: absolute;
+			top: 150%;
+		}
+		.site-description h2{
+			color: #ffffff;
+			font-size: 25px;
+			display: inline-block;
+			margin: 1% 7%;
+			text-transform: uppercase;
+			
+		}
+		
+		.reg-form {
+			width: 25%;
+			position: absolute;
+			top: 15%;
+			right: 15%;
+			padding: 3% 0;
+			text-align: center;
+			color: #ffffff;
+			font-family:Krungthep;
+			text-transform:uppercase;
+			opacity: 0.8;
+			
+		}
+		.reg-form h2 {
+			margin: 3px;
+			
+		}
+		.reg-form input {
+			width: 60%;
+			padding: 6% 4%;
+			margin: 1px 15%;
+			border: none;
+			text-align: center;
+			
+		}
+		
+		.footer-container {
+			background-color: #351212;
+		}
+		.footer-container p {
+			display: inline-block;
+			margin: 2%;
+			color: #ffffff;
+		}
+		.footer-list {
+			display: inline-block;
+			margin: 0 0 0 30%;
+		}
+		.footer-list li {
+			float: left;
+			color: #F1E4D4;
+			list-style-type: none;
+			margin-right: 20px;
+		}
+		.footer-list a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+		.reg-form button {
+			margin-top: 6%;
+			padding: 3% 15%;
+			color: #ffffff;
+			background-color: transparent;
+			border: 1px solid #ffffff;
+			
+		}
+		.reg-form button:hover {
+			background-color: #351212;
+			border: none;
+			
+		}
+		.login-form {
+			position: absolute;
+			top: 10px;
+			right: 0%;
+			width: 365px;
+			opacity: 0.8;
+		}
+		.login-form button {
+			padding:8px 15px;
+			color: #ffffff;
+			background-color: transparent;
+			border: 1px solid #ffffff;
+			
+		}
+		.login-form button:hover {
+			background-color: #351212;
+			border: none;
+			
+			
+		}
+		.login-form input {
+			padding: 10px 10px;
+			border: none;
+			text-align: center;
+			
+		}
+		
